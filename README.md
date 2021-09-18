@@ -1,7 +1,7 @@
 # Excel sheet reader to dictionary
 A special class that reads Excel strings and implements access to them through a dictionary: `{Column name: value}`. Implemented on the principle of generators through the `__next__` method.
 
-🇷🇺 [Russian README](README.md)
+🇷🇺 [Russian README](README_ru.md)
 
 Is able to:
 * You can define your own fields using the `fieldnames` attribute. If there are more or less own fields, it fills `None` empty spaces, similar to` csv.DictReader () `.
